@@ -90,7 +90,7 @@ width: 85%;
 .age-result {
   padding-bottom: 74px;
 }
-.age-result p{
+.age-result h1{
   display: inline-block;
   font-style: italic;
   font-weight: 700;
