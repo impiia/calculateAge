@@ -79,10 +79,6 @@ width: 85%;
  background-color: #864DFF;
   border: none;
   cursor: pointer;
-  background-image: url(../assets/images/icon-arrow.svg);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
     }
   .round:hover{
     background-color: black;
