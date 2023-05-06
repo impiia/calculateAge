@@ -61,16 +61,16 @@ body {
 .button-group{
   display: flex;
   align-items: center;
+  margin: 0 55px 0 55px;
 }
 
 .error-label {
-            color: red;
-        }
+color: red;
+}
 .line {
-  width: 80%;
+width: 85%;
   height: 1px;
   background-color: #ccc;
-      margin: 0;
 }
 .round {
   border-radius: 50%;
