@@ -40,7 +40,7 @@ function calcAge(){
   dayLabel.classList.add('error-label');
   } else if (!isInteger(dayInput) || parseInt(dayInput, 10) < 1 || parseInt(dayInput, 10) > 31) {
     dayErrorText.style.display = 'block';
-    dayErrorText.innerText = 'Must be a walid day';
+    dayErrorText.innerText = 'Must be a valid day';
     dayLabel.classList.add('error-label');
   }
   else {
@@ -55,7 +55,7 @@ function calcAge(){
   }
   else if (!isInteger(monthInput) || parseInt(monthInput, 10) < 1 || parseInt(monthInput, 10) > 12) {
       monthErrorText.style.display = 'block';
-      monthErrorText.innerText = 'Must be a walid month';
+      monthErrorText.innerText = 'Must be a valid month';
       monthLabel.classList.add('error-label');
     }
    else {
@@ -81,7 +81,7 @@ if (dayInput !== '' && monthInput !== '' && yearInput !== '') {
     //isValidDate(dayInput,monthInput,yearInput);
      if (!isValidDate(dayInput,monthInput,yearInput)) {
          dayErrorText.style.display = 'block';
-         dayErrorText.innerText = 'Must be a walid date';
+         dayErrorText.innerText = 'Must be a valid date';
          dayLabel.classList.add('error-label');
          monthLabel.classList.add('error-label');
          yearLabel.classList.add('error-label');
